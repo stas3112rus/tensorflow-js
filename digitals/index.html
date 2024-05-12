@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js
+	https://storage.googleapis.com/jmstore/TensorFlowJS/EdX/TrainingData/mnist.js -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="info">Getting data for training. Please wait...</h1>
+	<progress value="0" max="100"></progress>
+	<br>
+	<canvas width="28" height="28"></canvas>
+	<p id="prediction"></p>
+
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js"></script>
+	<script type="module" src="predict.js">	</script>
+</body>
+</html>
